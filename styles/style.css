@@ -16,9 +16,9 @@ a {
 }
 
 body {
-  background-image: url(../assets/images/background-image.png);
+  background-image: url(../assets/images/background-mobile.png);
   background-size: cover;
-  background-position: 0% 65%;
+  background-position: 0% 85%;
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   font-weight: 100;
@@ -38,28 +38,29 @@ body:before {
 }
 
 .content-container {
-  margin: 50px 0 0 125px;
+  margin: 25px 0 0 20px;
 }
 
 .title {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 120px;
+  font-size: 55px;
   line-height: 1;
   text-transform: uppercase;
-  max-width: 567px;
+  max-width: 300px;
 }
 
 .buttons-container {
-  max-width: 567px;
-  margin: 40px 0 0 0;
+  max-width: 100%;
+  margin: 20px 20px 0px 0px;
   z-index: 100;
 }
 
 
 
 .button {
-  display: inline-block;
-  width: 45%;
+  display: block;
+  width: 100%;
+  max-width: 400px;
   height: 55px;
   font-size: 1.3rem;
   text-align: center;
@@ -87,11 +88,12 @@ body:before {
 
 .spacer {
   margin-right: 30px;
+  margin-bottom: 15px
 }
 
 .author-container {
-  text-align: right;
-  margin: 200px 150px 0 0;
+  text-align: center;
+  margin: 200px auto;
   color: #fff;
   font-size: 2rem;
   text-transform: uppercase;
@@ -100,22 +102,56 @@ body:before {
 footer {
   position: absolute;
   bottom: 5px;
-  left: 25px;
+  width: 100%;
+  text-align: center;
   color: #fff;
   font-weight: 100;
   font-size: .95rem;
   letter-spacing: 0.5px
 }
 
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
   
   body {
     background-image: url(../assets/images/background-image.png);
-    background-size: cover;
     background-position: 0% 65%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1em;
-    font-weight: 100;
-    color: #171d24;
   }
-  */
+ 
+  .content-container {
+    margin: 50px 0 0 125px;
+  }
+  
+  .title {
+    font-size: 120px;
+    max-width: 567px;
+  }
+  
+  .buttons-container {
+    max-width: 567px;
+    margin: 40px 0 0 0;
+  }
+  
+  .button {
+    display: inline-block;
+    width: 45%;
+  }
+  
+  .author-container {
+    text-align: right;
+    margin: 200px 150px 0 0;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 5px;
+    left: 25px;
+    color: #fff;
+    font-weight: 100;
+    font-size: .95rem;
+    letter-spacing: 0.5px
+  }
+  
+  
+  
+}
+
