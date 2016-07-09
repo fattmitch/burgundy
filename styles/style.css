@@ -172,15 +172,33 @@ footer {
   
   .buttons-container {
     margin: 40px 0 0 0;
+    width: 50%;
   }
   
-  .spacer {
-    margin: 0 30px 0 0;
+  .button {
+    display: inline;
+    margin: 0 0 0 0;
+  }
+  
+  .or {
+    display: inline;
+    margin: 0 15px 0 15px;
+  }
+  
+  .preview {
+    display: inline;
+    margin: 0;
   }
   
   .author-container {
     text-align: right;
     margin: 200px 150px 0 0;
+  }
+  
+  .author-links > .preview {
+    display: inline;
+    text-align: right;
+    margin-right: 12px;
   }
   
   footer {
