@@ -57,8 +57,8 @@ body:before {
 
 .button {
   display: inline-block;
-  width: 75%;
-  margin: 0 12.5% 0 12.5%;
+  width: 95%;
+  margin: 0 2.5% 0 2.5%;
   font-size: 1.3rem;
   text-align: center;
   padding: 15px 15px 15px 15px;
@@ -133,15 +133,19 @@ body:before {
 .author-container {
   position: absolute;
   width: 100%;
-  bottom: 5%;
+  bottom: 0%;
   text-align: center;
-  margin: auto;
+  margin: 0 auto 5px;
   color: #fff;
   font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase;
 }
 
+
+.author-links {
+  line-height: 25px;
+}
 .author-links > .preview {
   font-size: 1rem;
 }
