@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+.hide {
+  display: none;
+}
+
 body {
   background-image: url(../assets/images/background-mobile.png);
   background-size: cover;
